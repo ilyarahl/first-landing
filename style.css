@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: wheat;
+    font-family: 'Arial', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.main-header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.main-header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-header .main-navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.main-header .navigation-list {
+    display: flex;
+}
+
+.main-header .navigation-item {
+    margin-left: 23px;
+}
+
+.main-header .main-navigation a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.main-header .sign-up {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 125px;
+    padding-bottom: 135px;
+}
+
+.main-header .sign-up .left-column {
+    width: 445px;
+}
+
+.main-header .sign-up-title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 52px;
+}
+
+.main-header .sign-up-text {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.main-header .btn-sign-up {
+    width: 130px;
+    height: 37px;
+    margin-top: 15px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
