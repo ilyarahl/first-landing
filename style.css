@@ -12,6 +12,16 @@ ul {
     list-style: none;
 }
 
+.btn {
+    width: 130px;
+    height: 37px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
 .container {
     width: 65%;
     margin: 0 auto;
@@ -49,42 +59,35 @@ ul {
     text-decoration: none;
 }
 
-.main-header .sign-up {
+.main-header .promo {
     display: flex;
     justify-content: space-between;
     margin-top: 125px;
     padding-bottom: 135px;
 }
 
-.main-header .sign-up .left-column {
+.main-header .promo .left-column {
     width: 445px;
 }
 
-.main-header .sign-up-title {
+.main-header .promo-title {
     font-size: 48px;
     font-weight: 900;
     line-height: 52px;
 }
 
-.main-header .sign-up-text {
+.main-header .promo-text {
     margin-top: 10px;
     font-size: 18px;
 }
 
-.main-header .btn-sign-up {
-    width: 130px;
-    height: 37px;
+.main-header .btn-promo {  
     margin-top: 15px;
-    background-color: #3882F6;
     border: none;
-    border-radius: 10px;
-    font-size: 18px;
-    color: white;
-    cursor: pointer;
 }
 
 /* MAIN */
-/* SECTION INFO */
+/* INFO SECTION */
 
 .info {
     background-color: #FFFFFF;
@@ -117,3 +120,40 @@ ul {
     margin-top: 10px;
 }
 
+/* QUOTE SECTION */
+
+.quote {
+    padding-top: 135px;
+    border-color: red;
+}
+
+/* SIGN-UP SECTION */
+
+.subscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 100px 0;
+    background-color: white;
+}
+
+.subscription .sign-up {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    font-size: 18px;
+    color: white;
+}
+
+.subscription .sign-up-title {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.subscription .btn-sign-up {
+    border: 2px solid white
+}
