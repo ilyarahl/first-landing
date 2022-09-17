@@ -4,7 +4,6 @@
 }
 
 body {
-    background-color: wheat;
     font-family: 'Arial', sans-serif;
 }
 
@@ -123,8 +122,25 @@ ul {
 /* QUOTE SECTION */
 
 .quote {
-    padding-top: 135px;
-    border-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 425px;
+    background-color: #E5E7EB;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote figcaption {
+    margin-top: 10px;
+    font-size: 24px;
+    text-align: end;
+    color: #1F2937;
+    font-weight: bold;
 }
 
 /* SIGN-UP SECTION */
